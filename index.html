@@ -27,7 +27,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse font-weight-black font-size-first" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto text-uppercase">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
@@ -44,17 +44,17 @@
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
                                 <i data-feather="user"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
                                 <i data-feather="search"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
                                 <i data-feather="shopping-bag"></i>
                             </a>
                         </li>
@@ -65,17 +65,22 @@
     </header>
     <main class="container">
         <div class="promo">
-            <img class="img-fluid box-shadow" src="/assets/images/banner-bookshop.svg" alt="banner">
-            <div>
-
+            <img class="img-fluid" src="/assets/images/banner-bookshop.svg" alt="banner">
+            <div id="card-1" class="promo-card">
+                <a href="#">
+                    <p>Change old book on new</p>
+                    <img src="assets/images/arrow.png" alt="arrow" id="right-arrow">
+                </a>
             </div>
-
-            <div>
-
+            <div id="card-2" class="promo-card">
+                <a href="#">
+                    <p>Top 100 books 2020</p>
+                    <img src="assets/images/arrow.png" alt="arrow" id="right-arrow">
+                </a>
             </div>
         </div>
 
-        <section>
+        <section id="main-content">
             <div class="side-bar-menu">
                 <nav class="nav flex-column">
                     <a class="nav-link text-decoration-none active" href="#">Bestsellers</a>
@@ -94,6 +99,83 @@
                     <a class="nav-link text-decoration-none" href="#">Sport & Hobbies</a>
                     <a class="nav-link text-decoration-none" href="#">Travel & Maps</a>
                 </nav>
+            </div>
+            <div id="book-list">
+                <article class="book-detail">
+                    <img src="assets/images/covers/crazy-rich-asians_kevin-kwan.png" alt="" class="book-cover">
+                    <div class="book-infor">
+                        <p class="book-author">Kevin Kwan</p>
+                        <p class="book-title">Crazy rich asians</p>
+                        <div class="book-review">
+                            <div class="stars">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-disabled.svg">
+                            </div>
+                            <p class="reviews-number">254 reviews</p>
+                        </div>
+                        <p class="book-description">the outrageously funny debut novel about three super-rich, pedigreed
+                            Chinese families and the gossip...</p>
+                        <div class="book-price">
+                            <p class="price">$ 4.99</p>
+                            <p class="old-price">$24.12</p>
+                        </div>
+                        <button class="card-action">Buy now</button>
+                    </div>
+
+                </article>
+                <article class="book-detail">
+                    <img src="assets/images/covers/crazy-rich-asians_kevin-kwan.png" alt="" class="book-cover">
+                    <div class="book-infor">
+                        <p class="book-author">Kevin Kwan</p>
+                        <p class="book-title">Crazy rich asians</p>
+                        <div class="book-review">
+                            <div class="stars">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-disabled.svg">
+                            </div>
+                            <p class="reviews-number">254 reviews</p>
+                        </div>
+                        <p class="book-description">the outrageously funny debut novel about three super-rich, pedigreed
+                            Chinese families and the gossip...</p>
+                        <div class="book-price">
+                            <p class="price">$ 4.99</p>
+                            <p class="old-price">$24.12</p>
+                        </div>
+                        <button class="card-action">Buy now</button>
+                    </div>
+
+                </article>
+                <article class="book-detail">
+                    <img src="assets/images/covers/crazy-rich-asians_kevin-kwan.png" alt="" class="book-cover">
+                    <div class="book-infor">
+                        <p class="book-author">Kevin Kwan</p>
+                        <p class="book-title">Crazy rich asians</p>
+                        <div class="book-review">
+                            <div class="stars">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-active.svg">
+                                <img src="assets/images//star-disabled.svg">
+                            </div>
+                            <p class="reviews-number">254 reviews</p>
+                        </div>
+                        <p class="book-description">the outrageously funny debut novel about three super-rich, pedigreed
+                            Chinese families and the gossip...</p>
+                        <div class="book-price">
+                            <p class="price">$ 4.99</p>
+                            <p class="old-price">$24.12</p>
+                        </div>
+                        <button class="card-action">Buy now</button>
+                    </div>
+
+                </article>
             </div>
         </section>
 
